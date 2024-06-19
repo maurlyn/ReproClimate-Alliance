@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #f8b400;
+    background-color: green;
     padding: 20px;
     text-align: center;
 }
@@ -26,7 +26,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000;
+    color:green;
 }
 
 main {
@@ -40,19 +40,19 @@ main {
 }
 
 .product {
-    border: 1px solid #ccc;
+    border: 1px solid green ;
     padding: 10px;
     margin-bottom: 10px;
 }
 
 .sidebar {
     flex: 1;
-    border: 1px solid #ccc;
+    border: 1px solid green;
     padding: 10px;
 }
 
 footer {
-    background-color: #f8b400;
+    background-color: green;
     text-align: center;
     padding: 10px;
     position: fixed;
