@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+
 }
 
 header {
@@ -61,3 +62,62 @@ footer {
     bottom: 0;
 }
 
+.carousel-inner > .carousel-item > img {
+    object-fit: cover; /* Scale the image to cover the entire container */
+    object-position: center; /* Center the image within the container */
+    height: 80vh; /* Set the image height to 50% of the viewport height */
+    overflow: hidden; /* Hide any extra parts of the image */
+}
+
+
+
+
+
+img {
+    width: 100px;
+    
+}
+.my-column:hover {
+    background-color:green; /* green */
+  }
+  
+  .hover-1 {
+    background-image: linear-gradient(green0);
+    background-size: var(--p, 0%);
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.hover-1:hover {
+    --p: 100%;
+    color: #fff;
+}
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    margin-top: 0;
+}
+.navbar-toggler-icon {
+    background-color: transparent !important;
+}
+
+     /* Custom CSS for card hover effect */
+.card {
+    transition: transform 0.3s,background-color 0.3s;
+    /* Add other card styles as needed */
+}
+
+.card:hover {
+    background-color: green;
+    transform: translateY(10px);
+
+.my-custom-h4 {
+    z-index: 100;
+    font-size: 24px;
+        color:green;
+        background-color:green;
+        padding: 10px;
+        position: absolute;
+    }
+}
